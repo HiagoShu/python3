@@ -1,0 +1,1 @@
+# Crie um jogo de Pedra, Papel e Tesoura (Jokenpô) onde o usuário joga contra o computador.
