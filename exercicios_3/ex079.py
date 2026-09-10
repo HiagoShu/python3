@@ -2,16 +2,18 @@
 #No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 
 
-#TO DO - Acrescentar a verificação se o número JÁ está na lista, não ser adicionado.
+#TO DO - Acrescentar a exibição de todos os valores únicos digitados em ordem crescente.
 lista = []
 while True:
-    lista.append(int(input('Digite um número: ')))
-
-
-
+    num=(int(input('Digite um número: ')))
+    if num not in lista:
+        lista.append(num)
+    else:
+        print('Esse valor já está na lista. Escreva outro.')
     #Opção de parar ou não.
     opcao = ' '
     while opcao not in 'SsNn':
         opcao = str(input('Você quer continuar? [S/N]')).strip().upper()[0]
     if opcao =='N':
         break
+print(lista)
