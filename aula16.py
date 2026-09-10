@@ -42,6 +42,7 @@
 #c = b+a #Ele concatena uma tupla na outra. A ordem tem total influência
 #print(c)
 #print(len(c))
+
 #Métodos internos da tupla
 #print(c.count(5)) #Quantas vezes o número cinco aparece
 #print(c.index(2)) #Em qual posição está o número 2? R: 3
