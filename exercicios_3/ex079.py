@@ -16,4 +16,5 @@ while True:
         opcao = str(input('Você quer continuar? [S/N]')).strip().upper()[0]
     if opcao =='N':
         break
-print(lista)
+lista.sort()
+print(f'A ordem crescente dos números que você digitou é: {lista}')
