@@ -4,12 +4,12 @@
 #print(teste)
 #galera = list()
 #galera.append(teste) #Ocorre uma ligação
-#galera.append(teste[:])
 #print(galera)
 #teste[0] = 'Maria'
 #teste [1] = 22
-#galera.append(teste[:])
-#galera.append(teste) #Ocorre uma ligação
+#print(galera) # Galera e Teste foram ambos modificados por causa da ligação
+#print(teste)
+#galera.append(teste[:]) #Cópia
 #print(galera)
 
 #galera =[['João',19],['Ana',33],['Joaquim',13],['Maria',45]]
