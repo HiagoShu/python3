@@ -35,12 +35,16 @@ print(f' A) Pessoas cadastradas: {len(galera)} pessoas')
 media = soma //len(galera)
 print('-='*30)
 print(f'B) A média das idades é de: {media}')
+
+
 print('-='*30)
 print('C) As mulheres cadastradas foram ',end='')
 for p in galera:
     if p['Sexo'] in 'F':
         print(f'{p["Nome"]} , ',end='')
 print()
+
+
 print('-='*30)
 print('D) Lista das pessoas que estão acima da média de idade: ')
 for p in galera:
@@ -49,4 +53,6 @@ for p in galera:
         for k,v in p.items():
             print(f' {k}  =  {v}; ',end='')
         print() 
+
+
 print('<< ENCERRADO >>')
