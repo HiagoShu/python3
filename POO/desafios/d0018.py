@@ -1,0 +1,1 @@
+#Crie a classe Churrasco, onde seja possível informar quantas pessoas vão participar e mostre quanto de carne deve ser comprado, o custo total do churrasco e o preço por pessoa. Considere que cada pessoa consome 400g de carne e o preço do kg da carne é R$ 82,40.
