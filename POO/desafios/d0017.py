@@ -8,7 +8,11 @@ class Produto:
         self.preco = preco 
 
     def etiqueta(self):
-        return Panel(f"{self.nome} ---------------------------- Preço: R$ {self.preco:.2f}",title = "Produto:",width=35,)
+        conteudo = f"{self.nome.center(30,' ')}"
+        conteudo += f"{'-'*30}" #Linha separadora
+        precof = f"R${self.preco:,.2f}"
+        conteudo += f"{precof.center(30,'.')}"
+        return Panel(f"{conteudo}",title = "Produto:",width=34)
 
 
 produto1 = Produto("Notebook", 2500.00)
