@@ -1,0 +1,8 @@
+from cafeteria import Café, Cha, Leite
+
+def main():
+    bebida = Leite()
+    bebida.preparar()
+
+if __name__ =="__main__":
+    main()
